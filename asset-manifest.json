@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/optom_store/static/css/main.bc8cf767.css",
+    "main.js": "/optom_store/static/js/main.c49633d8.js",
+    "static/media/loading.webp": "/optom_store/static/media/loading.f1ab44ba54ffdbf15d02.webp",
+    "static/media/google.svg": "/optom_store/static/media/google.6e32afbde60a9602995b70a865fd8d21.svg",
+    "static/media/facebook.svg": "/optom_store/static/media/facebook.40867c1329435dd74904b9f5c3668cda.svg",
+    "index.html": "/optom_store/index.html",
+    "main.bc8cf767.css.map": "/optom_store/static/css/main.bc8cf767.css.map",
+    "main.c49633d8.js.map": "/optom_store/static/js/main.c49633d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc8cf767.css",
+    "static/js/main.c49633d8.js"
+  ]
+}

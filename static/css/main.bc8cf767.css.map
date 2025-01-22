@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.bc8cf767.css","mappings":"AAAA,EAGE,qBAAsB,CACtB,6BAAiC,CAHjC,QAAS,CACT,SAGF,CACA,cACE,cACF","sources":["index.css"],"sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: 'Roboto', sans-serif;\n}\na, button, link {\n  cursor: pointer;\n}"],"names":[],"sourceRoot":""}
