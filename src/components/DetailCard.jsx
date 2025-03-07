@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { DataBase } from "../store/slice/Db";
+import { DataBase, findById } from "../store/slice/Db";
 import { styled } from "@mui/material";
 
 function DetailCard() {
@@ -10,13 +10,13 @@ function DetailCard() {
   const dispatch = useDispatch();
   useEffect(() => {
     if (id) {
-      dispatch(DataBase.getProductById(+id));
+      dispatch(findById(+id));
     }
   }, [id]);
   return (
     <WrapperAll>
       <div>
-        <img alt={find_db?.title} src={find_db?.img} />
+        <img alt={find_db?.title} src={find_db?.imageUrl} />
       </div>
       <div className="second_block">
         <WrapperTitle>
@@ -37,7 +37,7 @@ function DetailCard() {
         <WrapperTitle>
           <p>Количество</p>
           <span />
-          <p>{find_db?.count}</p>
+          <p>{find_db?.name}</p>
         </WrapperTitle>
       </div>
     </WrapperAll>

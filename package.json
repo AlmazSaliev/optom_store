@@ -2,7 +2,6 @@
   "name": "optom-store",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AlmazSaliev.github.io/optom_store",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -12,6 +11,7 @@
     "@reduxjs/toolkit": "^2.5.0",
     "cra-template": "1.2.0",
     "gh-pages": "^6.3.0",
+    "proxy": "^2.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.54.2",

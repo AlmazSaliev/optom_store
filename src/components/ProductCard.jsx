@@ -7,13 +7,13 @@ function ProductCard({ i }) {
   return (
     <WrapperAll onClick={() => navigate("/" + i?.id)}>
       <div>
-        <img src={i?.img} alt={i?.title} />
+        <img src={i?.imageUrl} alt={i?.name} />
       </div>
       <div>
         <p>{i?.title}</p>
         <p>{i?.price}</p>
         <p>{i?.address}</p>
-        <p>{i?.count}</p>
+        <p>{i?.name}</p>
       </div>
     </WrapperAll>
   );

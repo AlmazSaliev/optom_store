@@ -1,13 +1,18 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import ProductCard from "./ProductCard";
 import { styled } from "@mui/material";
+import { getAll } from "../store/slice/Db";
 
 function ProductsRender() {
   const db = useSelector((i) => i.dataBase.data);
+  const dispatch = useDispatch();
+  useEffect(()=>{
+    dispatch(getAll())
+  },[])
   return (
     <WrapperAll>
-      {[...db, ...db]?.map((i, idx) => (
+      {[...db]?.map((i, idx) => (
         <ProductCard i={i} key={i?.id + " " + idx} />
       ))}
     </WrapperAll>
